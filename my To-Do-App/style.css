@@ -1,0 +1,85 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    padding: 2rem 3.5rem;
+    box-shadow: 5px 10px 18px #c7c7c7;
+    border-radius: 5px;
+    width: 25rem;
+    margin-top: 5rem;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#addBtn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+#addBtn:hover{
+    background-color: rgb(248, 180, 55);
+    color: white;
+}
+
+input{
+    padding: 7px 20px;
+    outline-color: orange;
+    outline-width: 1px;
+}
+
+/* li tag styling */
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 15px;
+    margin: 15px 0;
+    width: 17rem;
+}
+
+/* li:hover{
+    background-color: rgb(254, 176, 31);
+} */
+
+.icons{
+    display: flex;
+    gap: 4px;
+    justify-content: flex-start;
+}
+
+.p1{
+    background-color: rgb(119, 155, 119);
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.p2{
+    background-color: rgb(156, 25, 25);
+    border: 1px solid white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.removeLi{
+    display: none;
+}
+
+.checked{
+    text-decoration: line-through;
+    background-color: rgb(216, 188, 136);
+}
